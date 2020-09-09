@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="cl.desafiolatam.Usuario"/>
+<fullyQualifiedTypeName name="cl.desafiolatam.Album"/>
+<fullyQualifiedTypeName name="cl.desafiolatam.Foto"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="cl.desafiolatam.gsconsumeapi.interfaces.ObtenerLista"/>
+<fullyQualifiedTypeName name="cl.desafiolatam.gsconsumeapi.interfaces.imple.ObtenerListaImple"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="cl.aiep.gestoruniversidad.model.Carrera"/>
+<fullyQualifiedTypeName name="cl.aiep.gestoruniversidad.model.Alumno"/>
+<fullyQualifiedTypeName name="cl.aiep.gestoruniversidad.model.Asignatura"/>
+<fullyQualifiedTypeName name="cl.aiep.gestoruniversidad.model.Curso"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

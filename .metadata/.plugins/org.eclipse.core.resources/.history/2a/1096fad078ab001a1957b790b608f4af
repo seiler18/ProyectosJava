@@ -1,0 +1,31 @@
+package jesus.entrenamiento.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PiernasGluteos extends Ejercicios {
+private List<Semana>DiaPiernasGluteos;
+
+
+
+public PiernasGluteos(Semana semana) {
+	super();
+	this.setDiaPiernasGluteos(new ArrayList<Semana>());
+}
+
+
+
+public List<Semana> getDiaPiernasGluteos() {
+	return DiaPiernasGluteos;
+}
+
+public List<Semana> addDiaPiernasGluteos(){
+	return this.DiaPiernasGluteos;
+}
+
+public void setDiaPiernasGluteos(List<Semana> diaPiernasGluteos) {
+	DiaPiernasGluteos = diaPiernasGluteos;
+}
+}
+
+

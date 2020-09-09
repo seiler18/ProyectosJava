@@ -1,0 +1,57 @@
+package jesus.entrenamiento;
+
+
+
+
+import jesus.entrenamiento.model.PiernasGluteos;
+import jesus.entrenamiento.model.Semana;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//Semana diaPG = new Semana();
+//PiernasGluteos piernasGluteos = new PiernasGluteos(diaPG);
+//diaPG.setGluteosPiernas("Lunes");
+//piernasGluteos.setRepeticiones(20);
+//piernasGluteos.setSeries(4);
+//piernasGluteos.setDescripcion("Lounges o Sancadas");
+//piernasGluteos.addDiaPiernasGluteos();
+//System.out.println(piernasGluteos.getDescripcion()+ " "+ 
+//piernasGluteos.getRepeticiones() + " "+ diaPG.getGluteosPiernas());
+		
+Semana semana = new Semana();	
+PiernasGluteos ejercicio1 = new PiernasGluteos();
+PiernasGluteos ejercicio2 = new PiernasGluteos();
+PiernasGluteos ejercicio3 = new PiernasGluteos();
+PiernasGluteos ejercicio4 = new PiernasGluteos();
+
+ejercicio1 = CrearRutinaPiernas("Lunes", "Sentadillas al fondo", 25, 4);
+ejercicio2 = CrearRutinaPiernas("Lunes", "Zancadas o Desplantes", 20, 4);
+ejercicio3 = CrearRutinaPiernas("Lunes", "Extension de Cuadriceps", 20, 4);
+ejercicio4 = CrearRutinaPiernas("Lunes", "Femorales", 15, 4);
+
+System.out.println("Para el dia : "+semana.getLunes()+"\n"+ "Tenemos los siguientes ejercicios : " 
++"\n"+ ejercicio1.getDescripcion() + " | "
++"\n"+ ejercicio2.getDescripcion() + " | "
++"\n"+ ejercicio3.getDescripcion() + " | "
++"\n"+ ejercicio4.getDescripcion() + " | "
+);
+	
+	}
+	
+public static PiernasGluteos CrearRutinaPiernas(String lunes,String descripcion,Integer repeticiones,Integer series) {
+	
+	Semana semana = new Semana();
+	PiernasGluteos ejercicio = new PiernasGluteos();
+	semana.setLunes("Lunes");
+	ejercicio.setDescripcion(descripcion);
+	ejercicio.setRepeticiones(repeticiones);
+	ejercicio.setSeries(series);
+	return ejercicio;
+	
+	
+}	
+}
+	
